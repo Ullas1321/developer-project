@@ -9,10 +9,10 @@ nav{
     justify-content: space-around;
     
 }
-header{
-    background-image: url(images/header_bg.png);
-    background: var(--white-color, #FFF);
+.mary{
+    margin-right: 770px;
 }
+
 nav>ul{
     list-style: none;
 }
@@ -69,9 +69,9 @@ span{
 }
 header{
     background: var(--white-color, #f9e9e9);
-    background-image: url(images/header_bg.png);
+    background-image: url(images/header_bg.png),url("images/developer.png");
     background-repeat: no-repeat;
-    background-position:bottom right;
+    background-position:bottom right,top left;
   
 }
 .banners{
