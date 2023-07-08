@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* start nav menu */
 nav{
     display: flex;
     align-items: center;
@@ -31,36 +31,81 @@ nav ul li>a{
 
 
 }
+/* end nev menu */
+
+
+/* start banner section */
 .btn{
     background-color: #f45100;
     border: none;
     color: white;
-    padding: 6px;
+    padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: 700;
 }
 .mary{
     
     font-family:'Libre Baskerville', serif;
+    font-weight: 800;
+    font-size: 45px;
 
+}
+
+.benner-had{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-had1{
+    font-size: 85px;
+    font-weight: 800;
 }
 span{
     color:#f45100; ;
 }
 header{
     background: var(--white-color, #f9e9e9);
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:bottom right;
+  
 }
 .banners{
     display: flex;
     align-items: center; 
-    justify-content: space-around; 
-    padding: 30px 30px 0px 150px;  
+    justify-content: space-between; 
+    padding: 80px 30px 0px 150px;  
 
 }
 .banner1{
     max-width: 500px;
+
 }
 .pic1{
-    height: 350px;
-    width: 300px;
+    height: 667px;
+    width: 584px;
+  
+}
+/* end banner section */
+
+
+/* start main section */
+/* start about section */
+.about{
+
+    padding: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+text-align: center;
+margin: 0 auto;
+margin: 130px 0px;
+
+}
+.pera3{
+    color:  #757575;
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
 }
