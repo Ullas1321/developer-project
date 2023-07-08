@@ -254,8 +254,8 @@ margin-bottom: 10px;
     display: block;
     height: 50px;
     width: 350px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
     border: 1px solid white;
     border-radius: 5px;
 }
@@ -276,4 +276,11 @@ font-weight: 700;
 }
 .cannect{
     margin-bottom: 300px;
+    width: 50%;
+}
+footer{
+    margin-top: 100px;
+}
+.messege{
+    width: 50%;
 }
