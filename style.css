@@ -9,6 +9,10 @@ nav{
     justify-content: space-around;
     
 }
+header{
+    background-image: url(images/header_bg.png);
+    background: var(--white-color, #FFF);
+}
 nav>ul{
     list-style: none;
 }
@@ -178,10 +182,13 @@ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06)
 .hr{
     border: 1px solid rgb(42, 40, 40);
     width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .summary-container{
     display: flex;
     width: 100%;
+    gap: 50px;
 }
 .summary-list{
     width: 50%;
@@ -220,5 +227,53 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 28px;
+margin-top: 10px;
+margin-bottom: 10px;
 
+}
+
+
+.btn1{
+    background-color:#f45100;
+    margin-top: 100px;
+    text-align: center;
+}
+.ikon{
+    margin: 20px;
+}
+.foot-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    background: #FFF8F3;
+    padding: 60px;
+}
+#label{
+    display: block;
+    height: 50px;
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#messeges{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.submit{
+    display: block;
+    margin: 10px;
+}
+.let{
+    color: var(--dark-01, #181818);
+
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+}
+.cannect{
+    margin-bottom: 300px;
 }
